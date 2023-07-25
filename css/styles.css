@@ -1,0 +1,428 @@
+
+body{
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+:root{
+    --brand-color:#4D5AE5;
+}
+.header-logo{
+    color: var(--brand-color);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+        
+}
+.logo-part{
+    margin-right: 76px;
+    color: #2E2F42;
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/*------------------- header------------------ */
+
+.nav-header{
+}
+
+.header-list{
+}
+
+.header-element{
+    color: #2e2f42;
+    line-height: 1.5;
+    /* text-orientation: initial; */
+}
+
+.header-element:hover{
+    color: #404bbf;
+}
+.header-element:focus{
+    color: #404bbf;
+}
+
+.header-list-element{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;    
+}
+
+.contacts-block{ 
+    font-style: normal;
+}
+.header-contact{
+    margin-right: 40px;
+    text-decoration: none;;
+}
+
+.header-address-element{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-address-element:hover {
+    color: #404bbf;
+}
+
+.header-address-element:focus {
+    color: #404bbf;
+}
+
+
+/*------------main-----------------*/
+
+
+/* section one */
+
+.first-section{
+    background-color: #2e2f42 ;
+    justify-content: center;
+}
+
+
+.main-title{
+    color:  #ffffff ;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.first-section-button{
+    color: #FFF;
+    background-color: #4D5AE5 ;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+    /* section two */
+
+.first-section-button:hover{
+    background-color: #404BBF;
+}
+.first-section-button:focus{
+    background-color: #404BBF;
+}
+
+.second-section-list{
+}
+
+.second-section-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.second-section-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455 ;
+    letter-spacing: 0.02em;
+}
+
+.second-section-list-element{
+        color:#2E2F42;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+}
+
+
+
+        .third-section-title {
+            color:#2E2F42;
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+        .third-section-list{
+        }
+
+        .third-section-list-element{
+        }
+
+        /*fourth section*/
+
+.forth-section{
+    background-color: #F4F4FD ;
+}
+
+        .fourth-section-title{
+            color: #2e2f42;
+            font-family: Roboto;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            text-align: center;
+        }
+
+        .fourth-section-list{
+        }
+
+        .fourth-section-list-element{
+            background-color: #FFFFFF;
+        }
+
+        .fourth-section-paragraph{
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455 ;
+        }
+
+        .footer-main {
+            background-color:#2e2f42;
+            }
+        
+        .footer-logo {
+            color: #4D5AE5;
+            font-family: Raleway, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            text-decoration: none;
+            }
+        
+        .footer-logo-part {
+            color: #F4F4FD;
+            text-decoration: none;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 21px;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
+            text-decoration: none;
+            }
+        
+        .footer-main-text {
+            color: #F4F4FD;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.32px;
+            }
+
+
+        /*-------------portfolio-------------*/
+
+        .portfolio-header-list-element{
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+            text-decoration: none;
+        }
+        .portfolio-header-list-element:hover{
+            color:#404bbf;
+        }
+        .portfolio-header-list-element:focus{
+            color:#404bbf;
+        }
+
+        .portfolio-header-list-link{
+            color: #2e2f42;
+            text-decoration: none;
+        }
+        .portfolio-header-list-link:hover {
+            color: #404bbf;
+        }
+        
+        .portfolio-header-list-link:focus {
+            color: #404bbf;
+        }
+
+        .portfolio-address-list{
+            list-style: none;
+        }
+
+        .portfolio-header-contact{
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+            text-decoration: none;
+        }
+
+        .portfolio-header-contact:hover{
+            color: #404bbf;
+        }
+
+        .portfolio-header-contact:focus{
+            color: #404bbf;
+        }
+
+        .portfolio-header-logo{
+            font-family: Raleway, sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color:#4d5ae5;
+            text-decoration: none;
+        }
+
+        .portfolio-header-logo:hover{
+            color: #404BBF;
+        }
+        .portfolio-header-logo:focus{
+            color: #404BBF;
+        }
+
+        .portfolio-address-element{
+            text-decoration: none;
+            color: #434455;
+        }
+        .portfolio-address-element:hover{
+            color: #404BBF; 
+        }
+        .portfolio-address-element:focus{
+            color: #404BBF;
+        }
+
+        .portfolio-section-one-list{
+            margin-left: 451px;
+            margin-top: 108px;
+            text-decoration: none;
+        }
+
+        .portfolio-section-one-list-element{
+            text-decoration: none;
+            font-family: Roboto, sans-serif;
+            font-weight: 500px;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 1.04em;
+            color: #4d5ae5 ;
+
+        }
+
+        .portfolio-button-main{
+            font-family: Roboto, sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #4d5ae5;
+            background-color: #F4F4FD;
+            cursor: pointer;
+        }
+        
+        .portfolio-button-main:hover{
+            color: #FFFFFF;
+            background-color: #404BBF;
+        }
+        .portfolio-button-main:focus{
+            color: #FFFFFF;
+            background-color: #404BBF;
+        }
+
+        .portfolio-section-two-list{
+            list-style: none;
+
+        }
+
+        .link{
+            text-decoration: none;
+        }
+
+        .portfolio-section-two-list-element{
+        }
+
+        .portfolio-main-list-title{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+
+        }
+
+        .portfolio-main-list-paragraph{
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #434455;
+        }
+
+
+        .footer-main{
+        }
+        .footer-logo {
+            color: #4D5AE5;
+            font-family: Raleway, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            text-decoration: none;
+        
+        
+        }
+        
+        .footer-logo-part {
+            color: #F4F4FD;
+            text-decoration: none;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 21px;
+            letter-spacing: 0.54px;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        .footer-main-text{
+            color: #F4F4FD;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.32px;
+        }
