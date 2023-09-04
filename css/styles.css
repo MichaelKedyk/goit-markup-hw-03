@@ -419,6 +419,8 @@ margin: 0 auto;
         .portfolio-header-list-link{
             color: #2e2f42;
             text-decoration: none;
+            padding-top: 24px;
+            padding-bottom: 24px;
         }
         .portfolio-header-list-link:hover {
             color: #404bbf;
@@ -480,6 +482,15 @@ margin: 0 auto;
         .portfolio-address-element:focus{
             color: #404BBF;
         }
+
+/* portfolio main */
+
+        .portfolio-section{
+            padding-top: 96px;
+            padding-bottom: 120px;
+            
+        }
+
 
         .portfolio-section-one-list{
             margin-left: 451px;
